@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ </head>
+ <body>
+ <header>
+  <center><img src="protologo.jpg" width=30% align="center" alt="Logo" /></center>
+  <h1>Horror Movie Marathon!</h1>
+ </header>
+  <ul class="menu">
+   <li class="box"><a href="home.html">Home</a></li>
+   <li class="box"><a href="movies-by-decade.html">Movies by Decade</a></li>
+   <li class="box"><a href="movies-by-week.html">Movies by Week</a></li>
+   <li class="box"><a href="movie-rankings.html">Movie Rankings</a></li>
+   <li class="box"><a href="all-movies.html">All Movies</a></li>
+   <li class="box"><a href="contact.html">Contact me</a></li>
+  </ul>
+   <form method="post" action="blank">
+    <h5>Comment Here:</h5>
+    <ul>
+     <li>
+      <label for="name">
+       First Name:<strong>
+       <span aria-label="required">*</span></strong>
+      </label>
+       <input type="text" id="name" name="user_name" />
+     </li><br>
+     <li>
+     <input type="checkbox" id="contact" name="yes_contact" value="Yes">
+     <label for="contact">Please contact me</label>
+     </li><br>
+     <li>
+      <label for="msg">
+       What would you like to share?
+       <strong><span aria-label="required">*</span></strong>
+      </label><br>
+       <textarea id="msg" name="user_comment" /></textarea>
+     </li>
+     <section>
+      <button type="submit">Send it!</button>
+     </section
+</body>
+</html>
