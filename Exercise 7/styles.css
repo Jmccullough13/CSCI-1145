@@ -1,0 +1,39 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, 
+td {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+thead th {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #0056ed;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #D7FAFE;
+}
+
+tfoot td {
+  background-color: black;
+  color: white;
+  font-size: 9px;
+  text-align: center;
+}
+
+caption {
+  font-size: 25px;
+  padding: 10px;
+}

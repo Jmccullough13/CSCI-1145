@@ -1,0 +1,13 @@
+#p1 {
+   position: fixed;
+   bottom: 0;
+ }
+
+li, .main {
+   float: right;
+ }
+
+.p2 {
+   font-size: 14px;
+   font-weight: bold;
+ }

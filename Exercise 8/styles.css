@@ -1,0 +1,18 @@
+body {
+   background-color: gray;
+   font-family: sans-serif;
+}
+
+form {
+   background-color: #fbf0f9;
+   width: 70%;
+   border-right: 6px solid black;
+   border-left: 6px solid black;
+   border-bottom: 6px solid black;
+   margin: auto;
+   margin-top: -1%;
+   padding: 80px 70px 80px 70px;
+}
+
+
+

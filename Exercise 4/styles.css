@@ -1,0 +1,23 @@
+body {
+   background: url("soccer-field.jpg") green;
+   background-size: cover;
+   color: black;
+}
+p {
+   font-family:cursive;
+   width:200-300px;
+}
+h1 {
+   font-family: sans-serif;
+}
+a:link {
+   color: black;
+}
+a:hover {
+   color: yellow;
+   background: black;
+}
+ol,
+.upperroman {
+   list-style-type: upper-roman;
+}
